@@ -11,34 +11,44 @@
 <body>
 	<div class="content">
 		
-		<!-- Title -->
-		<h1 class="title">
-			send a message
-		</h1>
+		<!-- Logo -->
+		<div class="logo">
 
-		<!-- Image -->
-		<div class="img"></div>
-		
-		<!-- Personal details title -->
-		<h4 class="title-form">
-			Personal details
-		</h4>
+			<!-- Title -->
+			<h1 class="title">
+				send a message
+			</h1>
+
+			<!-- Image -->
+			<div class="img"></div>
+		</div>
 
 		<!-- Form -->
 		<form action="" class="form">
 
-			<!-- Personal details form -->
-			<div class="personal-details">
-				<input type="text" id="name" name="name" placeholder="Name">
-				<input type="email" id="email" name="email" placeholder="Email">
+			<!-- Column 1 -->
+			<div class="col-one">
+				<!-- Personal details title -->
+				<h4 class="title-form">
+					Personal details
+				</h4>
+
+				<!-- Personal details form -->
+				<div class="personal-details">
+					<input type="text" id="name" name="name" placeholder="Name">
+					<input type="email" id="email" name="email" placeholder="Email">
+				</div>
 			</div>
 
-			<!-- Message -->
-			<div class="message-box">
-				<textarea name="message" id="message" cols="30" rows="10" placeholder="Please, enter your message here."></textarea>
+			<!-- Column 2 -->
+			<div class="col-two">
+				<div class="message-box">
+					<!-- Message -->
+					<textarea name="message" id="message" cols="30" rows="10" placeholder="Please, enter your message here."></textarea>
 
-			<!-- Send message button -->
-				<input type="submit" value="submit">
+					<!-- Send message button -->
+					<input type="submit" value="submit">
+				</div>
 			</div>
 		</form>
 	</div>
