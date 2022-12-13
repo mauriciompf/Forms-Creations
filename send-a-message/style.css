@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;700&display=swap');
+
+/*==============
+	Variables
+============*/
+
+:root {
+	/* Colors */
+	--light-blue: #29ABE2;
+	--purple: #662D91;
+	--pink: #F72585;
+	--skyblue: #4361EE;
+	--very-dark-blue: #190B28;
+
+	/* Fonts */
+	--font-lora: 'Lora', serif;
+	--font-ubutu: 'Ubuntu', sans-serif;
+}
+
+/* General style */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Layout */
+
+/* Logo */
+
+/* Form */
+
+/* Column 1 */
+
+/* Column 2 */
