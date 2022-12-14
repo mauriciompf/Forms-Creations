@@ -46,7 +46,7 @@
 	max-width: 69%;
 	margin: 0 auto;
 
-	border: var(--border-base);
+/*	border: var(--border-base);*/
 }
 
 .title {
@@ -69,13 +69,39 @@
 	max-width: 100%;
 }
 
-
-/* Form */
+/* Form/Columns */
 .form {
+	width: 100%;
+	display: flex;
+	gap: 2rem;
+
 	border: var(--border-base);
 }
 
-/* Column 1 */
+.input {
+	display: block;
+	padding: .5rem;
+	margin: 1rem 0;
 
+	font-weight: 700;
+	font-size: 1rem;
+/*	border: none;*/
+}
+
+/* Column 1 */
+.col-one {
+	min-width: 50%;
+	
+	border: var(--border-base);
+}
+
+.title-form {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.personal-details .input {
+	width: 100%;
+}
 
 /* Column 2 */
