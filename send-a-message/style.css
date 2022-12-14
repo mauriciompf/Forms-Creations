@@ -124,3 +124,28 @@ body {
 }
 
 /* Column 2 */
+.col-two {
+	width: 50%;
+}
+
+.message-box {
+	border: var(--border-base);
+}
+
+.message {
+	width: 100%;
+	resize: none;
+	overflow: auto;
+}
+
+.submit {
+	float: right;
+	background-color: var(--skyblue);
+	width: 25%;
+	padding: 1rem 0;
+
+	cursor: pointer;
+	border-radius: 1rem;
+	border: 1px solid #fff;
+	margin: 0;
+}
