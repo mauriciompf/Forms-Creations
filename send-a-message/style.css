@@ -28,16 +28,17 @@
 }
 
 /* Layout */
-/*body {
-
-}*/
+body {
+	background-color: var(--skyblue);
+	font-family: var(--font-ubutu);
+	color: #fff;
+}
 
 .container {
 	max-width: 85%;
 	margin: 0 auto;
-	border: var(--border-base);
 
-	font-family: var(--font-ubutu);
+	border: var(--border-base);
 }
 
 
@@ -85,7 +86,25 @@
 
 	font-weight: 700;
 	font-size: 1rem;
-/*	border: none;*/
+	font-family: var(--font-lora);
+	border: none;
+	background-color: var(--light-blue);
+	color: #fff;
+	border-radius: .1rem;
+	outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;/
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
 }
 
 /* Column 1 */
