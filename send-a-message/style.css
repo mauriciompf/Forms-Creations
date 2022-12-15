@@ -17,7 +17,7 @@
 	--font-ubutu: 'Ubuntu', sans-serif;
 
 	/* Border */
-	--border-base: 2px solid black;
+	--border-base: 2px solid #000;
 }
 
 /* General style */
@@ -98,7 +98,7 @@ body {
 	padding: 1rem .5rem;
 	margin-bottom: 1rem;
 
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 1.5rem;
 	font-family: var(--font-lora);
 	border: none;
@@ -108,9 +108,14 @@ body {
 	outline: none;
 }
 
+.input:hover,
+.input:focus {
+	box-shadow: 0 0 10px var(--very-dark-blue);
+}
+
 ::placeholder {
   color: #fff;
-  opacity: 1;/
+  opacity: 1;
 }
 
 :-ms-input-placeholder {
@@ -153,8 +158,15 @@ body {
 	width: 25%;
 	padding: 1rem 0;
 
+	font-weight: 700;
 	cursor: pointer;
 	border-radius: 1rem;
 	border: 1px solid #fff;
 	margin: 0;
+}
+
+.submit:hover,
+.submit:focus {
+	background-color: var(--very-dark-blue);
+	color: skyblue;
 }
