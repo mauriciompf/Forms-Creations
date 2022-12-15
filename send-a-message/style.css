@@ -137,12 +137,12 @@ body {
 	color: #fff;
 	border-radius: .1rem;
 	outline: none;
-
 }
 
 .input:hover,
 .input:focus {
 	box-shadow: 0 0 10px var(--very-dark-blue);
+	transition: all 3s ease;
 }
 
 /* selection color */
@@ -223,6 +223,8 @@ body {
 
 @media (min-width: 375px) {
 	.submit {
-
+		float: none;
+		width: 50%;
+		margin: 0 auto;
 	}
 }
