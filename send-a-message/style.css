@@ -41,6 +41,7 @@ body {
 	padding: 2rem 0;
 
 	border: var(--border-base);
+	text-shadow: 0 1px 3px black;
 }
 
 @media (min-width: 375px) {
@@ -136,6 +137,7 @@ body {
 	color: #fff;
 	border-radius: .1rem;
 	outline: none;
+
 }
 
 .input:hover,
@@ -188,6 +190,12 @@ body {
 /*	border: var(--border-base);*/
 }
 
+.message-box::before {
+	content: "Message";
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
 .message {
 	width: 100%;
 	resize: none;
@@ -211,4 +219,10 @@ body {
 .submit:focus {
 	background-color: var(--very-dark-blue);
 	color: skyblue;
+}
+
+@media (min-width: 375px) {
+	.submit {
+
+	}
 }
