@@ -113,6 +113,12 @@ body {
 	box-shadow: 0 0 10px var(--very-dark-blue);
 }
 
+/* selection color */
+::selection {
+	background-color: var(--very-dark-blue);
+}
+
+/* placeholder color */
 ::placeholder {
   color: #fff;
   opacity: 1;
