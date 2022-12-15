@@ -40,9 +40,8 @@ body {
 	margin: 0 auto;
 	padding: 2rem 0;
 
-	border: var(--border-base);
+/*	border: var(--border-base);*/
 }
-
 
 /* Logo */
 .logo {
@@ -80,6 +79,7 @@ body {
 /* Title form */
 .title-form {
 	font-size: 2.5rem;
+/*	padding-left: .5rem;*/
 	font-weight: 700;
 }
 
@@ -89,16 +89,17 @@ body {
 	display: flex;
 	gap: 2rem;
 
-	border: var(--border-base);
+/*	border: var(--border-base);*/
 }
 
+/* Input */
 .input {
 	display: block;
-	padding: .5rem;
-	margin: 1rem 0;
+	padding: 1rem .5rem;
+	margin-bottom: 1rem;
 
 	font-weight: 700;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-family: var(--font-lora);
 	border: none;
 	background-color: var(--light-blue);
@@ -124,7 +125,7 @@ body {
 .col-one {
 	min-width: 50%;
 	
-	border: var(--border-base);
+/*	border: var(--border-base);*/
 }
 
 .personal-details .input {
@@ -137,7 +138,7 @@ body {
 }
 
 .message-box {
-	border: var(--border-base);
+/*	border: var(--border-base);*/
 }
 
 .message {
