@@ -137,12 +137,14 @@ body {
 	color: #fff;
 	border-radius: .1rem;
 	outline: none;
+	transition: .3s all ease;
 }
 
 .input:hover,
 .input:focus {
 	box-shadow: 0 0 10px var(--very-dark-blue);
-	transition: all 3s ease;
+	transition: .1s all ease;
+
 }
 
 /* selection color */
