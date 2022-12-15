@@ -17,7 +17,7 @@
 	--font-ubutu: 'Ubuntu', sans-serif;
 
 	/* Border */
-	--border-base: 2px solid blue;
+	--border-base: 2px solid black;
 }
 
 /* General style */
@@ -36,7 +36,9 @@ body {
 
 .container {
 	max-width: 85%;
+	height: 100vh;
 	margin: 0 auto;
+	padding: 2rem 0;
 
 	border: var(--border-base);
 }
@@ -68,6 +70,17 @@ body {
 	width: 6.25em;
 	height: 6.25em;
 	max-width: 100%;
+}
+
+/* Content */
+.content {
+	margin-top: 2rem;
+}
+
+/* Title form */
+.title-form {
+	font-size: 2.5rem;
+	font-weight: 700;
 }
 
 /* Form -- Columns */
@@ -112,11 +125,6 @@ body {
 	min-width: 50%;
 	
 	border: var(--border-base);
-}
-
-.title-form {
-	font-size: 2rem;
-	font-weight: 700;
 }
 
 .personal-details .input {
