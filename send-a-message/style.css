@@ -43,6 +43,12 @@ body {
 	border: var(--border-base);
 }
 
+@media (min-width: 375px) {
+	.container {
+		height: auto;
+	}
+}
+
 /* Logo */
 .logo {
 	max-width: 69%;
@@ -109,6 +115,13 @@ body {
 /*	border: var(--border-base);*/
 }
 
+@media (min-width: 375px) {
+	.form {
+		flex-direction: column;
+		gap: 0;
+	}
+}
+
 /* Input */
 .input {
 	display: block;
@@ -163,6 +176,12 @@ body {
 /* Column 2 */
 .col-two {
 	width: 50%;
+}
+
+@media (min-width: 375px) {
+	.col-two {
+		width: 100%
+	}
 }
 
 .message-box {
