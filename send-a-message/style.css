@@ -62,7 +62,7 @@ body {
 .img {
 	float: right;
 
-	background-image: url(../images/message-logo.png);
+	background-image: url(../images/envelope-solid.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
