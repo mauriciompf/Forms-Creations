@@ -66,3 +66,23 @@ body {
 .box-login {
 	border: var(--border);
 }
+
+/* Message login */
+.message-login {
+	border: var(--border);
+}
+
+.message-title {
+	line-height: 2.5rem;
+
+	font-weight: 700;
+}
+
+.message-subtitle {
+	margin-top: .5rem;
+	line-height: 1.5rem;
+
+	color: var(--gray);
+	font-size: 1rem;
+	font-weight: 300
+}
