@@ -58,7 +58,6 @@ body {
 /* login */
 .login {
 	border: var(--border);
-	width: 90%;
 	margin: 0 auto;
 	padding: 1.5rem 3rem;
 }
