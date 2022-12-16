@@ -85,3 +85,15 @@ body {
 	font-size: 1rem;
 	font-weight: 300
 }
+
+/* form */
+.form {
+	margin-top: 1rem;
+
+	border: var(--border);
+}
+
+.form label {
+	color: var(--gray);
+	font-size: .9rem;
+}
