@@ -57,18 +57,15 @@ body {
 
 /* login */
 .login {
-	border: var(--border);
 	margin: 0 auto;
 	padding: 1.5rem 3rem;
 }
 
 .box-login {
-	border: var(--border);
 }
 
 /* Message login */
 .message-login {
-	border: var(--border);
 }
 
 .message-title {
@@ -90,10 +87,24 @@ body {
 .form {
 	margin-top: 1rem;
 
-	border: var(--border);
 }
 
 .form label {
 	color: var(--gray);
 	font-size: .9rem;
+}
+
+/* input */
+.input {
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+	width: 100%;
+
+	display: block;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid var(--gray);
+
+	font-size: 1rem;
+	font-weight: 700;
 }
