@@ -11,7 +11,7 @@
 	--white: #FFFCE8;
 	--black : #3E363F;
 	--gray: #808080;
-	--btn-default: #FF5154;
+	--light-red: #FF5154;
 	--color-google: #C5C6D0;
 
 	/* Fonts */
@@ -20,4 +20,17 @@
 
 	/* Border */
 	--border: 2px solid var(--black);
+}
+
+/* Layout */
+body {
+	font-family: var(--font-ubuntu);
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+	height: 100vh;
+
+	border: var(--border);
 }
