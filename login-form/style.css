@@ -107,3 +107,16 @@ body {
 	font-size: 1rem;
 	font-weight: 700;
 }
+
+.btn-default{
+	margin: 0 auto;
+	margin-top: 2.5rem;
+	padding: 1rem 2rem;
+	width: 40%;
+	border-radius: 1rem;
+
+	border-bottom: 5px solid var(--black);
+	background-color: var(--light-red);
+	color: var(--white);
+	cursor: pointer;
+}
