@@ -29,8 +29,7 @@ body {
 
 .container {
 	max-width: 90%;
-	margin: 0 auto;
-	height: 100vh;
+	margin: 1.5rem auto;
 
 	border: var(--border);
 }
