@@ -34,10 +34,23 @@ body {
 	border: var(--border);
 }
 
+/* Header/Logo */
 .logo {
 	text-align: center;
 }
 
 .logo span {
 	color: var(--light-red);
+}
+
+/* login */
+.login {
+	border: var(--border);
+	width: 90%;
+	margin: 0 auto;
+	padding: 1.5rem 3rem;
+}
+
+.box-login {
+	border: var(--border);
 }
