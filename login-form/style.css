@@ -37,6 +37,12 @@ body {
 /* Header/Logo */
 .logo {
 	text-align: center;
+	max-width: 85%;
+
+	background-image: url(../images/fire.png);
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
 }
 
 .title-logo {
