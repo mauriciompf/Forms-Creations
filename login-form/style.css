@@ -33,3 +33,11 @@ body {
 
 	border: var(--border);
 }
+
+.logo {
+	text-align: center;
+}
+
+.logo span {
+	color: var(--light-red);
+}
