@@ -39,6 +39,11 @@ body {
 	text-align: center;
 }
 
+.title-logo {
+	font-size: 4.5rem;
+	font-weight: 700;
+}
+
 .logo span {
 	color: var(--light-red);
 }
