@@ -1,5 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;700&display=swap');
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+:root {
+	/* Colors */
+	--white: #FFFCE8;
+	--black : #3E363F;
+	--gray: #808080;
+	--btn-default: #FF5154;
+	--color-google: #C5C6D0;
+
+	/* Fonts */
+	--font-lora: 'Lora', serif;
+	--font-ubuntu: 'Ubuntu', sans-serif;
+
+	/* Border */
+	--border: 2px solid var(--black);
 }
