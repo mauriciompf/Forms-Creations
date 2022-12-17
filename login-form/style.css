@@ -129,5 +129,16 @@ body {
 }
 
 .form p {
-	width: 5%;
+	max-width: 5%;
+	color: var(--gray);
+	float: left;
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+.line {
+	min-width: 45.2%;
+	background-color: #bbb;
+	float: left;
+	margin: 3% 0;
 }
