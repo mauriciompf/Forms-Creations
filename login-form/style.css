@@ -174,7 +174,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: left;
 
-	font-weight: 400;
+	font-weight: 700;
+	color: var(--gray);
 	background-color: var(--white);
 }
 
