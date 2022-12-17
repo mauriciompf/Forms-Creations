@@ -180,6 +180,21 @@ body {
 
 /* Footer */
 .footer {
-	max-width: 55%;
+	max-width: 57%;
 	margin-top: 1.5rem;
+}
+
+.link {
+	text-decoration: none;
+	color: var(--gray);
+	transition: .3s ease all;
+}
+
+.link:hover,
+.link:focus
+{
+	color: var(--light-red);
+	font-weight: 700;
+	outline: none;
+	transition: .3s ease all;
 }
