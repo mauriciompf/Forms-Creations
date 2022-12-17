@@ -1,2 +1,3 @@
-# forms-creations
-Three different form structures to practice HTML and CSS.
+# Forms Structures
+
+To practice HTML and CSS, three different form structures.
