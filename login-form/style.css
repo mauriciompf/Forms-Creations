@@ -31,7 +31,6 @@ body {
 	max-width: 90%;
 	margin: 1.5rem auto;
 
-	border: var(--border);
 	color: var(--black);
 }
 
@@ -162,4 +161,10 @@ body {
 	background-color: var(--white);
 	border-bottom: 0;
 	cursor: pointer;
+}
+
+/* Footer */
+.footer {
+	max-width: 55%;
+	margin-top: 1.5rem;
 }
