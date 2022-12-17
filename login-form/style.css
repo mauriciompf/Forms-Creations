@@ -63,12 +63,10 @@ body {
 	color: var(--light-red);
 }
 
-/* login */
+/* Main/Login */
 .login {
 	padding: 1.5rem 3rem;
-}
-
-.box-login {
+	padding-bottom: 0;
 }
 
 /* Message login */
