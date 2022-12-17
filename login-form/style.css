@@ -34,6 +34,27 @@ body {
 	color: var(--black);
 }
 
+/* 1024px - laptops */
+@media (min-width: 1024px) {
+	body {
+		height: 100vh;
+		display: flex;
+	}
+
+	.container {
+		max-width: 50%;
+	}
+
+	.image-aside {
+		background-image: url("../images/computer-write.jpg");
+		background-repeat: no-repeat;		
+		background-position: left center;
+		background-size: cover;
+		min-width: 50%;
+
+	}
+}
+
 /* centralize classes */
 .input,
 .login,
@@ -62,6 +83,27 @@ body {
 	color: var(--light-red);
 }
 
+/* 768px - tablets */
+@media (min-width: 768px) {
+	.logo {
+		max-width: 42%;
+		margin: 0 auto;
+		text-align: left;
+	}
+}
+
+/* 1024px - laptops */
+@media (min-width: 1024px) {
+	.logo {
+		max-width: 27%;
+		margin: 0;
+	}
+
+	.title-logo {
+		font-size: 2.5rem;
+	}
+}
+
 /* Main/Login */
 .login {
 	padding: 1.5rem 3rem;
@@ -69,9 +111,6 @@ body {
 }
 
 /* Message login */
-.message-login {
-}
-
 .message-title {
 	line-height: 2.5rem;
 
@@ -85,6 +124,17 @@ body {
 	color: var(--gray);
 	font-size: 1rem;
 	font-weight: 300
+}
+
+/* 1024px - laptops */
+@media (min-width: 1024px) {
+	.message-title {
+		max-width: 85%
+	}
+
+	.message-subtitle {
+		margin-top: 1rem;
+	}
 }
 
 /* form */
@@ -111,7 +161,13 @@ body {
 	font-size: 1rem;
 	font-weight: 700;
 	font-family: var(--font-ubuntu);
-	transition: .3s ease all;
+}
+
+/* 1024px - laptops */
+@media (min-width: 1024px) {
+	.full-name {
+		margin-bottom: 2.5rem;
+	}
 }
 
 .full-name:hover,
@@ -136,7 +192,7 @@ body {
 .btn:hover,
 .btn:focus
 {
-	box-shadow: 0 0 1rem var(--black);
+	box-shadow: 0 0 .5rem var(--black);
 }
 
 /* Default Button */
@@ -146,6 +202,13 @@ body {
 	border-bottom: 5px solid var(--black);
 	background-color: var(--light-red);
 	color: var(--white);
+}
+
+/* 768px - tablets */
+@media (min-width: 768px) {
+	.btn-default {
+		max-width: 20%;
+	}
 }
 
 /* 'or' section */
@@ -162,6 +225,21 @@ body {
 	background-color: #bbb;
 	float: left;
 	margin: 3% 0;
+}
+
+/* 768px - tablets */
+@media (min-width: 768px) {
+	.line {
+		min-width: 47.2%;
+		margin: 2% 0;
+	}
+}
+
+/* 1024px - laptops */
+@media (min-width: 1024px) {
+	.line {
+		min-width: 46.2%;
+	}
 }
 
 /* Google button */
@@ -183,6 +261,29 @@ body {
 .footer {
 	max-width: 57%;
 	margin-top: 1.5rem;
+}
+
+/* 768px - tablets */
+@media(min-width: 768px) {
+	.btn-google {
+		max-width: 34%;
+	}
+
+	.footer {
+		max-width: 34%;
+	}
+}
+
+/* 1024px - laptops */
+@media (min-width: 1024px) {
+	.btn-google {
+		max-width: 40%;
+	}
+
+	.footer {
+		max-width: 39%;
+		margin-top: 2rem;
+	}
 }
 
 .link {
