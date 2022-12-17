@@ -36,7 +36,7 @@ body {
 }
 
 /* centralize classes */
-.btn-default,
+.input,
 .login,
 .form p,
 .footer {
@@ -113,13 +113,15 @@ body {
 
 	font-size: 1rem;
 	font-weight: 700;
+	font-family: var(--font-ubuntu);
 }
 
+/* Default Button */
 .btn-default {
+	width: 40%;
 	margin-top: 1.5rem;
 	margin-bottom: 0;
-	padding: 1rem 2rem;
-	width: 40%;
+	padding: 1rem 0;
 	border-radius: 1rem;
 
 	border-bottom: 5px solid var(--black);
@@ -128,6 +130,8 @@ body {
 	cursor: pointer;
 }
 
+
+/* 'or' section */
 .form p {
 	max-width: 5%;
 	color: var(--gray);
@@ -141,4 +145,23 @@ body {
 	background-color: #bbb;
 	float: left;
 	margin: 3% 0;
+}
+
+/* Google button */
+.btn-google {
+	max-width: 58%;
+	margin-top: 1.5rem;
+	margin-bottom: 0;	
+	padding: .5rem 0;
+	padding-left: 2rem;
+
+	background-image: url("../images/google.svg");
+	background-repeat: no-repeat;
+	background-position: left;
+
+	border-radius: 1rem;
+	font-weight: 400;
+	background-color: var(--white);
+	border-bottom: 0;
+	cursor: pointer;
 }
