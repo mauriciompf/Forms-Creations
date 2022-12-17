@@ -97,7 +97,7 @@ body {
 	font-size: .9rem;
 }
 
-/* input */
+/* All inputs */
 .input {
 	margin-top: .3rem;
 	margin-bottom: 1rem;
@@ -111,6 +111,16 @@ body {
 	font-size: 1rem;
 	font-weight: 700;
 	font-family: var(--font-ubuntu);
+	transition: .3s ease all;
+}
+
+.full-name:hover,
+.full-name:focus,
+.email:hover,
+.email:focus
+{
+	border-bottom: 2px solid var(--light-red);
+	transition: .3s ease all;
 }
 
 /* All Buttons */
@@ -131,7 +141,6 @@ body {
 	background-color: var(--light-red);
 	color: var(--white);
 }
-
 
 /* 'or' section */
 .form p {
