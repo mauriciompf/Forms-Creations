@@ -133,9 +133,15 @@ body {
 	cursor: pointer;
 }
 
+.btn:hover,
+.btn:focus
+{
+	box-shadow: 0 0 1rem var(--black);
+}
+
 /* Default Button */
 .btn-default {
-	width: 40%;
+	max-width: 40%;
 
 	border-bottom: 5px solid var(--black);
 	background-color: var(--light-red);
