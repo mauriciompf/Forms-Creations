@@ -98,4 +98,18 @@ body {
 	border: none;
 	box-shadow: 0 0 10px #fff;
 }
+
+/* Confirm Box */
+.confirm-box {
+	margin: 1rem;
+}
+
+.checkbox-label {
+	padding-left: .5rem;
+
+	line-height: 1.5rem;
+	color: var(--gray);
+	font-weight: 300;
+	font-size: 1rem;
+}
 }
