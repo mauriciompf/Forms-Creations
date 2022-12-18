@@ -142,4 +142,11 @@ body {
 	color: var(--gray);
 	margin: .5rem 0;
 }
+
+.btn {
+	border: none;
+	cursor: pointer;
+	background-color: #fff;
+	padding: .5rem;
+}
 }
