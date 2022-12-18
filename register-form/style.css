@@ -122,4 +122,24 @@ body {
 	
 	border: var(--border2);
 }
+
+/* Submit default */
+.btn-submit {
+	padding: .5rem 2rem;
+
+	border: none;
+	text-transform: uppercase;
+	font-family: inherit;
+	font-weight: 700;
+	background-color: var(--blue);
+	color: var(--white);
+	border-radius: 1rem;
+	cursor: pointer;
+}
+
+/* Or line */
+.or {
+	color: var(--gray);
+	margin: .5rem 0;
+}
 }
