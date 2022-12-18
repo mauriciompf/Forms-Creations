@@ -112,4 +112,14 @@ body {
 	font-weight: 300;
 	font-size: 1rem;
 }
+
+/* Buttons/Submit Box */
+.submit-box {
+	margin-bottom: 1rem;
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	
+	border: var(--border2);
+}
 }
