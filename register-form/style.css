@@ -149,4 +149,16 @@ body {
 	background-color: #fff;
 	padding: .5rem;
 }
+
+/* Google Button  */
+.btn-google {
+	background-image: url("../images/google.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.btn-google::after {
+	padding-left: 2rem;
+	content: "Google";
+	color: var(--gray);
 }
