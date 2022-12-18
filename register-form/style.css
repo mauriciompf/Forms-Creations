@@ -11,7 +11,8 @@
 	--blue: #387BE8;
 
 	/* border */
-	--border: 2px solid var(--red);
+	--border1: 2px solid var(--red);
+	--border2: 2px solid var(--blue);
 }
 
 * {
