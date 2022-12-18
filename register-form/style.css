@@ -20,3 +20,17 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* Layout */
+body {
+	background-color: var(--white);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: .5rem auto;
+	
+	border: var(--border1);
+}
+}
