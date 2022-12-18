@@ -33,4 +33,18 @@ body {
 	
 	border: var(--border1);
 }
+
+/* Header */
+.header {
+	display: flex;
+	justify-content: space-between;
+
+	border: var(--border2);
+}
+
+.text-header {
+	color: var(--gray);
+	font-weight: 500;
+	font-size: 1rem;
+}
 }
