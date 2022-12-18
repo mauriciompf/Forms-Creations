@@ -60,4 +60,27 @@ body {
 	line-height: 2rem;
 	cursor: pointer;
 }
+
+/* Main/Login Box */
+.login-box {
+	margin: 1rem 0;
+
+	border: var(--border1);
+}
+
+.text-login {
+	margin-bottom: 1rem;
+
+	border: var(--border2);
+}
+
+.title {
+	margin-bottom: .5rem;
+}
+
+.subtitle {
+	color: var(--gray);
+	font-weight: 500;
+	font-size: 1rem;
+}
 }
