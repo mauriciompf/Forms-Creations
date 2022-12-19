@@ -35,6 +35,48 @@ body {
 	border: var(--border1);
 }
 
+/* Image Side */
+@media (min-width: 768px) {
+	body {
+		min-height: 100vh;
+		display: flex;
+	}
+
+	.container {
+		max-width: 33%;
+	}
+
+	.image-side {
+		min-width: 50%;
+		display: grid;
+		place-items: center;
+
+		background-image: url("../images/background-one.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	/* Box Inside The Image Side/Logo */
+	.box-logo {
+		min-width: 15rem;
+		min-height: 15rem;
+		display: inherit;
+
+		background-color: var(--red);
+		border-radius: 1rem;
+	}
+
+	.image-logo {
+		min-width: 10rem;
+		min-height: 10rem;
+		margin: auto;
+
+		background-image: url(../images/double-check.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
 /* Header */
 .header {
 	display: flex;
