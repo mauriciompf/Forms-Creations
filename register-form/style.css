@@ -191,4 +191,24 @@ body {
 
 	content: 'Facebook';
 }
+/* Footer/Login */
+.footer {
+	display: flex;
+	align-items: center;
+}
+.line {
+	min-width: 5rem;
+	height: 2px;
+	margin-right: .5rem;
+
+	border: none;
+	background-color: var(--red);
+}
+
+.login-link {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 700;
+	color: var(--red);
+}
 }
