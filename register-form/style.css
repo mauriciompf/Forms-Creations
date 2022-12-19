@@ -178,4 +178,17 @@ body {
 
 	content: "Google";
 }
+
+/* Facebook Button */
+.btn-facebook {
+	background-image: url("../images/facebook.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.btn-facebook::after {
+	padding-left: 2rem;
+
+	content: 'Facebook';
+}
 }
