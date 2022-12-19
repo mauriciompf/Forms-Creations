@@ -87,6 +87,7 @@ body {
 	border: var(--border2);
 }
 
+/* personal details */
 .text-header {
 	color: var(--gray);
 	font-weight: 500;
@@ -177,6 +178,13 @@ body {
 	border: var(--border2);
 }
 
+@media (min-width: 768px) {
+	.submit-box {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
 /* Submit default */
 .btn-submit {
 	padding: .5rem 2rem;
@@ -233,11 +241,40 @@ body {
 
 	content: 'Facebook';
 }
+
+@media (min-width: 768px) {
+	.btn {
+		padding: .4rem;
+		background-color: transparent;
+	}
+
+	.or {
+		margin: 0;
+	}
+
+	.btn-google {
+		padding: .6rem;
+	}
+
+	.btn::after {
+		content: " ";
+		margin: 0;
+	}
+}
+
+
 /* Footer/Login */
 .footer {
 	display: flex;
 	align-items: center;
 }
+
+@media (min-width: 768px) {
+	.footer {
+		margin-top: 2rem;
+	}
+}
+
 .line {
 	min-width: 5rem;
 	height: 2px;
