@@ -101,7 +101,10 @@ body {
 	margin: .8rem .5rem;
 
 	border: none;
-	box-shadow: 0 0 10px #fff;
+	border-radius: .1rem;
+	box-shadow: 0 0 3px var(--gray);
+	font-size: 1rem;
+}
 }
 
 /* Confirm Box */
