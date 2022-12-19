@@ -51,13 +51,13 @@ body {
 }
 
 .languages {
-	padding: 0 1rem 0 .1rem;
+	padding: .5rem 1rem .5rem .1rem;
 
 	border: none;
+	border-radius: .1rem;
 	background-color: #fff;
 	color: var(--gray);
-	box-shadow: 0 0 1px var(--gray);
-	font-size: 1rem;
+	box-shadow: 0 0 1px var(--gray);	
 	font-family: inherit;
 	line-height: 2rem;
 	cursor: pointer;
