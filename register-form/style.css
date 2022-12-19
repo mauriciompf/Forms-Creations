@@ -16,7 +16,9 @@
 	--border2: 2px solid var(--blue);
 }
 
-* {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -31,6 +33,7 @@ body {
 .container {
 	max-width: 90%;
 	margin: .5rem auto;
+	margin-bottom: 0;
 	
 	border: var(--border1);
 }
@@ -137,15 +140,10 @@ body {
 	font-size: 1.2rem;
 }
 
-/* form */
-.form {
-/*	border: var(--border1);*/
-}
-
 /* input */
 .input {
 	display: block;
-	min-width: 100%;
+	min-width: 90%;
 	padding: 1rem;
 	margin: .8rem .5rem;
 
@@ -272,22 +270,15 @@ body {
 	}
 }
 
-
 /* Footer/Login */
 .footer {
 	display: flex;
 	align-items: center;
 }
 
-@media (min-width: 768px) {
-	.footer {
-		margin-top: 2rem;
-	}
-}
-
 .line {
 	min-width: 5rem;
-	height: 2px;
+	min-height: 2px;
 	margin-right: .5rem;
 
 	border: none;
