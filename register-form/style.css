@@ -137,7 +137,7 @@ body {
 .subtitle {
 	color: var(--gray);
 	font-weight: 500;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 /* input */
@@ -173,7 +173,7 @@ body {
 	line-height: 1.5rem;
 	color: var(--gray);
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: .8rem;
 }
 
 /* Buttons/Submit Box */
