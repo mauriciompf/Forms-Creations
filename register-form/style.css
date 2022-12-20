@@ -140,7 +140,12 @@ body {
 	font-size: 1rem;
 }
 
-/* input */
+/* Input Box */
+.input-box {
+	position: relative;
+}
+
+/* Input */
 .input {
 	display: block;
 	min-width: 100%;
@@ -153,6 +158,29 @@ body {
 	border-radius: .1rem;
 	box-shadow: 0 0 3px var(--gray);
 	font-size: 1rem;
+}
+
+
+/* Placeholder */
+.placeholder {
+	position: absolute;
+	top: 0;
+	padding: 1rem 1.5rem;
+
+	color: var(--gray);
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+.input:valid ~ .placeholder,
+.input:focus ~ .placeholder {
+	color: var(--black);
+    transform: translateX(10px) translateY(-12px);
+    background-color: var(--white);
+    padding: 0 .5rem;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
 }
 
 .input:hover,
