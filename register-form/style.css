@@ -143,10 +143,12 @@ body {
 /* input */
 .input {
 	display: block;
-	min-width: 90%;
+	min-width: 100%;
 	padding: 1rem;
-	margin: .8rem .5rem;
+	margin: 1rem 0;
 
+	font-family: inherit;
+	font-weight: 500;
 	border: none;
 	border-radius: .1rem;
 	box-shadow: 0 0 3px var(--gray);
