@@ -160,6 +160,11 @@ body {
 	font-size: 1rem;
 }
 
+@media (min-width: 768px) {
+	.input {
+		margin: 1rem .5rem;
+	}
+}
 
 /* Placeholder */
 .placeholder {
@@ -200,7 +205,7 @@ body {
 .checkbox-label {
 	padding-left: .5rem;
 
-	line-height: 1.5rem;
+	line-height: 1rem;
 	color: var(--gray);
 	font-weight: 300;
 	font-size: .8rem;
