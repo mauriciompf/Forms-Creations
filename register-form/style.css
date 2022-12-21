@@ -11,9 +11,6 @@
 	--green: #9AE59C;
 	--blue: #00EBEA;
 
-	/* border */
-	--border1: 2px solid var(--red);
-	--border2: 2px solid var(--blue);
 }
 
 *,
@@ -34,8 +31,6 @@ body {
 	max-width: 90%;
 	margin: .5rem auto;
 	margin-bottom: 0;
-	
-	border: var(--border1);
 }
 
 /* Image Side */
@@ -86,8 +81,6 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	gap: 1rem;
-
-	border: var(--border2);
 }
 
 /* personal details */
@@ -116,16 +109,8 @@ body {
 }
 
 /* Main/Login Box */
-.login-box {
-	margin: 1rem 0;
-
-	border: var(--border1);
-}
-
 .text-login {
 	margin-bottom: 1.5rem;
-
-	border: var(--border2);
 }
 
 .title {
@@ -217,8 +202,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	display: flex;
-	
-	border: var(--border2);
 }
 
 @media (min-width: 768px) {
