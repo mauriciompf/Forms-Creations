@@ -77,6 +77,13 @@ body {
 	}
 }
 
+/* 943px container - login */
+@media(min-width: 943px) {
+	.container {
+		grid-template-rows: 4rem 30rem auto;
+	}
+} 
+
 /* Header */
 .header {
 	display: flex;
@@ -211,6 +218,14 @@ body {
 	.submit-box {
 		flex-direction: row;
 		justify-content: space-between;
+	}
+}
+
+/* 915px - Icons */
+@media (max-width: 915px) {
+	.submit-box {
+		flex-direction: column;
+		gap: .5rem;
 	}
 }
 
