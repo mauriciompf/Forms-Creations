@@ -218,6 +218,8 @@ body {
 	padding: .5rem 2rem;
 
 	border: none;
+	outline: none;
+	font-size: inherit;
 	text-transform: uppercase;
 	font-family: inherit;
 	font-weight: 700;
