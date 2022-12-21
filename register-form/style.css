@@ -29,7 +29,7 @@ body {
 
 .container {
 	max-width: 90%;
-	margin: .5rem auto;
+	margin: 0 auto;
 	margin-bottom: 0;
 }
 
@@ -249,9 +249,7 @@ body {
 }
 
 .btn-google::after {
-	padding-left: 2rem;
-	margin-right: 1.5rem;
-
+	padding-left: 1.8rem;
 	content: "Google";
 }
 
@@ -280,6 +278,7 @@ body {
 
 	.btn-google {
 		padding: .6rem;
+		margin: 0;
 	}
 
 	.btn::after {
@@ -292,6 +291,7 @@ body {
 .footer {
 	display: flex;
 	align-items: center;
+	margin-bottom: 1rem;
 }
 
 .line {
