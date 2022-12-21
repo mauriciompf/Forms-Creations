@@ -246,6 +246,12 @@ body {
 	cursor: pointer;
 }
 
+.btn-submit:hover,
+.btn-submit:focus {
+	box-shadow:
+		0 0 2rem rgba(0, 0, 0, .24);
+}
+
 /* Or line */
 .or {
 	color: var(--gray);
