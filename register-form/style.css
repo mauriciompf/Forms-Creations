@@ -246,6 +246,12 @@ body {
 	color: var(--gray);
 }
 
+/* Buttons clicked */
+.btn:active,
+.btn-submit:active {
+    transform: translateY(4px);
+}
+
 /* Google Button  */
 .btn-google {
 	background-image: url("../images/google.svg");
