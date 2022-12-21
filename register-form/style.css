@@ -31,6 +31,8 @@ body {
 	max-width: 90%;
 	margin: 0 auto;
 	margin-bottom: 0;
+	display: grid;
+	grid-template-rows: 4rem auto auto;
 }
 
 /* Image Side */
