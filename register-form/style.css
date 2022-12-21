@@ -301,12 +301,7 @@ body {
 	content: 'Facebook';
 }
 
-@media (min-width: 768px) {
-	.btn {
-		padding: .4rem;
-		background-color: transparent;
-	}
-
+@media (min-width: 915px) {
 	.or {
 		margin: 0;
 	}
