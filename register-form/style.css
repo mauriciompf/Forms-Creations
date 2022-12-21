@@ -206,6 +206,7 @@ body {
 	display: flex;
 }
 
+/* 768px - Icons */
 @media (min-width: 768px) {
 	.submit-box {
 		flex-direction: row;
@@ -248,8 +249,10 @@ body {
 /* Google Button  */
 .btn-google {
 	background-image: url("../images/google.svg");
+	background-color: transparent;
 	background-repeat: no-repeat;
 	background-size: contain;
+	margin-right: 1rem;
 }
 
 .btn-google::after {
@@ -260,6 +263,7 @@ body {
 /* Facebook Button */
 .btn-facebook {
 	background-image: url("../images/facebook.svg");
+	background-color: transparent;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
